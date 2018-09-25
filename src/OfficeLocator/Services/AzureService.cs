@@ -36,7 +36,7 @@ namespace OfficeLocator.Services
                 return;
 
 
-            var appUrl = "https://my-office-locator.azurewebsites.net";
+            var appUrl = "https://mgclocations.azurewebsites.net";
 
 #if AUTH
             Client = new MobileServiceClient(appUrl, new AuthHandler());
